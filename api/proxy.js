@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-const targetUrl = 'https://script.google.com/macros/s/AKfycbxyybXqtVcpuKnmbbgXG_fRldZ3cO1GiIZtt_G8P3VENIdyoT3_jHNRbyokfjfvtzBn/exec';
+const targetUrl = 'https://script.google.com/macros/s/AKfycbwjUFw58Tb2tjNrI7x6LV8ktbhfVp5PrYx5jJYCsLLf4o6Or-FcGpgQRNTv_-aPT7oB/exec';
   
   // Обработка preflight (OPTIONS) запроса
   if (req.method === 'OPTIONS') {
